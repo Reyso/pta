@@ -1,4 +1,25 @@
 # Practical Exam
+
+## Implementação
+
+Servidor em Python 3.10 ou superior, sem dependências externas:
+
+```console
+python pta-server/server.py
+```
+
+Com o servidor rodando, execute em outro terminal:
+
+```console
+python pta-server/test_protocol.py
+python pta-server/test_download.py
+```
+
+As instruções detalhadas, etapas de desenvolvimento e limitações estão em
+[pta-server/README.md](pta-server/README.md).
+
+## Enunciado original
+
 Please **fork** this repo and **develop your server** based on the protocol described in [pta.pdf][ptad] file (in portuguese). Before coding, I suggest you carefully read the document spec and understand the protocol. Experiment the protocol, using paper and pencil, drawing examples of protocol usage.
 
 Please develop your server code in the directory [pta-server][ptas]. The user list that must be accepted by the protocol must be read from the [pta-server/users.txt][ptau] file. The files to be served by your server are in the [pta-server/files][ptaa] directory. Please don't change these files and directories.
